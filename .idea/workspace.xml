@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc2756cb-5ca5-4bb6-aa2e-fcabc9cefec1" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/thread/ReadWriteLockCache.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ttt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ttt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ttt.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,11 +19,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ttt.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ttt.java">
+      <file leaf-file-name="ReadWriteLockCache.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/thread/ReadWriteLockCache.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+            <state relative-caret-position="355">
+              <caret line="58" column="5" lean-forward="true" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -44,6 +48,7 @@
       <list>
         <option value="$PROJECT_DIR$/src/thread/test.text" />
         <option value="$PROJECT_DIR$/src/ttt.java" />
+        <option value="$PROJECT_DIR$/src/thread/ReadWriteLockCache.java" />
       </list>
     </option>
   </component>
@@ -60,7 +65,9 @@
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -77,6 +84,12 @@
               <item name="java-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="java-demo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="thread" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -163,12 +176,12 @@
       <option name="presentableId" value="Default" />
       <updated>1532071575829</updated>
       <workItem from="1532071577381" duration="4165000" />
-      <workItem from="1532313762677" duration="58000" />
+      <workItem from="1532313762677" duration="1926000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4223000" />
+    <option name="totallyTimeSpent" value="6091000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -224,7 +237,17 @@
     <entry file="file://$PROJECT_DIR$/src/ttt.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thread/ReadWriteLockCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="58" column="5" lean-forward="true" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
