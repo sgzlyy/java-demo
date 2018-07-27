@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc2756cb-5ca5-4bb6-aa2e-fcabc9cefec1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/java-demo/thread/BoundedQueue.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/java-demo/thread/ReadWriteLockCache.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/java-demo/thread/TestBoundedQueue$Consumer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/java-demo/thread/TestBoundedQueue$Producter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/java-demo/thread/TestBoundedQueue.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/boundedQueue/BoundedQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/boundedQueue/TestBoundedQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/ForkAndJoin/CountTask.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-demo/thread/BoundedQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-demo/thread/TestBoundedQueue$Consumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-demo/thread/TestBoundedQueue$Producter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-demo/thread/TestBoundedQueue.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,8 +25,8 @@
       <file leaf-file-name="ReadWriteLockCache.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/thread/ReadWriteLockCache.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="357">
+              <caret line="21" column="17" lean-forward="true" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -37,14 +34,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BoundedQueue.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/thread/boundedQueue/BoundedQueue.java">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="CountTask.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/thread/ForkAndJoin/CountTask.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="117">
+              <caret line="64" column="49" selection-start-line="64" selection-start-column="49" selection-end-line="64" selection-end-column="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestBoundedQueue.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/thread/boundedQueue/TestBoundedQueue.java">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="ConcurrentHashMap.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/../../3.path/jdk/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/util/concurrent/ConcurrentHashMap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="512">
+              <caret line="959" column="22" lean-forward="true" selection-start-line="959" selection-start-column="22" selection-end-line="959" selection-end-column="22" />
+              <folding>
+                <element signature="e#39094#39095#0" expanded="true" />
+                <element signature="e#39146#39147#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -56,6 +68,13 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>tryAcquire</find>
+      <find>addConditionWaiter</find>
+      <find>tryLock</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -64,11 +83,12 @@
       <list>
         <option value="$PROJECT_DIR$/src/thread/test.text" />
         <option value="$PROJECT_DIR$/src/ttt.java" />
-        <option value="$PROJECT_DIR$/src/thread/ReadWriteLockCache.java" />
         <option value="$PROJECT_DIR$/src/thread/BoundedQueue.java" />
         <option value="$PROJECT_DIR$/src/thread/TestBoundedQueue.java" />
         <option value="$PROJECT_DIR$/src/thread/boundedQueue/BoundedQueue.java" />
         <option value="$PROJECT_DIR$/src/thread/boundedQueue/TestBoundedQueue.java" />
+        <option value="$PROJECT_DIR$/src/thread/ReadWriteLockCache.java" />
+        <option value="$PROJECT_DIR$/src/thread/ForkAndJoin/CountTask.java" />
       </list>
     </option>
   </component>
@@ -111,6 +131,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="thread" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="java-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="thread" type="462c0819:PsiDirectoryNode" />
+              <item name="ForkAndJoin" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -130,6 +157,11 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="thread.boundedQueue" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -142,7 +174,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestBoundedQueue">
+  <component name="RunManager" selected="Application.CountTask">
     <configuration name="BoundedQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="thread.BoundedQueue" />
       <module name="java-demo" />
@@ -150,6 +182,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="thread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="CountTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.ForkAndJoin.CountTask" />
+      <module name="java-demo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="thread.ForkAndJoin.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -209,9 +252,11 @@
     <list>
       <item itemvalue="Application.BoundedQueue" />
       <item itemvalue="Application.TestBoundedQueue" />
+      <item itemvalue="Application.CountTask" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CountTask" />
         <item itemvalue="Application.TestBoundedQueue" />
         <item itemvalue="Application.BoundedQueue" />
       </list>
@@ -228,15 +273,16 @@
       <option name="presentableId" value="Default" />
       <updated>1532071575829</updated>
       <workItem from="1532071577381" duration="4165000" />
-      <workItem from="1532313762677" duration="10221000" />
+      <workItem from="1532313762677" duration="20563000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14386000" />
+    <option name="totallyTimeSpent" value="24728000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -244,17 +290,18 @@
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5007153" side_tool="true" visible="true" weight="0.32917705" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5007153" side_tool="true" weight="0.32917705" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" visible="true" weight="0.32917705" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49928468" visible="true" weight="0.32917705" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1788269" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.55947953" visible="true" weight="0.1788269" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info id="Structure" order="1" sideWeight="0.44052044" side_tool="true" visible="true" weight="0.1788269" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -265,7 +312,6 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -318,23 +364,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../3.path/jdk/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/Condition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="471" column="6" lean-forward="true" selection-start-line="471" selection-start-column="6" selection-end-line="471" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/thread/ReadWriteLockCache.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/thread/TestBoundedQueue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="89">
@@ -360,11 +389,75 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/thread/boundedQueue/BoundedQueue.java">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="jar://$PROJECT_DIR$/../../3.path/jdk/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="661" column="41" lean-forward="true" selection-start-line="661" selection-start-column="12" selection-end-line="661" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../3.path/jdk/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="118" column="11" lean-forward="true" selection-start-line="116" selection-end-line="192" />
+          <folding>
+            <element signature="e#8176#8177#0" expanded="true" />
+            <element signature="e#8216#8217#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/thread/boundedQueue/TestBoundedQueue.java">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="65" selection-start-line="47" selection-end-line="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../3.path/jdk/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/Condition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="230" column="11" selection-start-line="230" selection-start-column="11" selection-end-line="230" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thread/boundedQueue/BoundedQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../3.path/jdk/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/util/concurrent/ConcurrentHashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="959" column="22" lean-forward="true" selection-start-line="959" selection-start-column="22" selection-end-line="959" selection-end-column="22" />
+          <folding>
+            <element signature="e#39094#39095#0" expanded="true" />
+            <element signature="e#39146#39147#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thread/ReadWriteLockCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="17" lean-forward="true" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thread/ForkAndJoin/CountTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="64" column="49" selection-start-line="64" selection-start-column="49" selection-end-line="64" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
