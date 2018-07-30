@@ -8,7 +8,7 @@ import java.util.concurrent.TimeUnit;
 public class TestThreadPool {
     public static void main(String[] args) {
         ThreadPoolExecutor executor = new ThreadPoolExecutor(5, 10, 200, TimeUnit.MILLISECONDS,
-                new ArrayBlockingQueue<Runnable>(100));
+                new ArrayBlockingQueue<>(100));
 
         for (int i = 0; i < 15; i++) {
             MyTask myTask = new MyTask(i);

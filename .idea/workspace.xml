@@ -2,6 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc2756cb-5ca5-4bb6-aa2e-fcabc9cefec1" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/proxy/ClientClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/proxy/ProxyClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/proxy/RealClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/proxy/RealClass2I.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/proxy/RealClassI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/thread/TestThreadPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thread/TestThreadPool.java" afterDir="false" />
     </list>
@@ -32,76 +37,61 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ReadWriteLockCache.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/thread/ReadWriteLockCache.java">
+      <file leaf-file-name="RealClassI.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/proxy/RealClassI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="21" column="17" lean-forward="true" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+            <state relative-caret-position="85">
+              <caret line="5" selection-start-line="5" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RealClass2I.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/proxy/RealClass2I.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RealClass.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/proxy/RealClass.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="39" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#118#119#0" expanded="true" />
+                <element signature="e#138#139#0" expanded="true" />
+                <element signature="e#233#234#0" expanded="true" />
+                <element signature="e#289#290#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CountTask.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/thread/ForkAndJoin/CountTask.java">
+      <file leaf-file-name="ProxyClass.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/proxy/ProxyClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="59" selection-start-line="59" selection-end-line="59" />
+            <state relative-caret-position="153">
+              <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#220#221#0" expanded="true" />
+                <element signature="e#262#263#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Future.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../../3.path/jdk/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/util/concurrent/Future.java">
+      <file leaf-file-name="ClientClass.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/proxy/ClientClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="119" lean-forward="true" selection-start-line="119" selection-end-line="119" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestThreadPool.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/thread/TestThreadPool.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+            <state relative-caret-position="170">
+              <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#697#698#0" expanded="true" />
-                <element signature="e#731#732#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ThreadPoolExecutor.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../../3.path/jdk/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="1190" column="49" selection-start-line="1190" selection-start-column="34" selection-end-line="1190" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestBoundedQueue.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/thread/boundedQueue/TestBoundedQueue.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="667">
-              <caret line="65" selection-start-line="47" selection-end-line="65" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BoundedQueue.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/thread/boundedQueue/BoundedQueue.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -112,6 +102,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -135,8 +126,12 @@
         <option value="$PROJECT_DIR$/src/thread/boundedQueue/BoundedQueue.java" />
         <option value="$PROJECT_DIR$/src/thread/boundedQueue/TestBoundedQueue.java" />
         <option value="$PROJECT_DIR$/src/thread/ReadWriteLockCache.java" />
-        <option value="$PROJECT_DIR$/src/thread/TestThreadPool.java" />
         <option value="$PROJECT_DIR$/src/thread/ForkAndJoin/CountTask.java" />
+        <option value="$PROJECT_DIR$/src/thread/TestThreadPool.java" />
+        <option value="$PROJECT_DIR$/src/proxy/ProxyClass.java" />
+        <option value="$PROJECT_DIR$/src/proxy/RealClass.java" />
+        <option value="$PROJECT_DIR$/src/proxy/RealClass2I.java" />
+        <option value="$PROJECT_DIR$/src/proxy/ClientClass.java" />
       </list>
     </option>
   </component>
@@ -167,6 +162,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -183,29 +180,19 @@
               <item name="java-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="java-demo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="thread" type="462c0819:PsiDirectoryNode" />
+              <item name="proxy" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="java-demo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="thread" type="462c0819:PsiDirectoryNode" />
-              <item name="boundedQueue" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="thread" type="462c0819:PsiDirectoryNode" />
-              <item name="ForkAndJoin" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -235,7 +222,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestThreadPool">
+  <component name="RunManager" selected="Application.ClientClass">
     <configuration name="BoundedQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="thread.BoundedQueue" />
       <module name="java-demo" />
@@ -243,6 +230,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="thread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="ClientClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="proxy.ClientClass" />
+      <module name="java-demo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="proxy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -326,9 +324,11 @@
       <item itemvalue="Application.TestBoundedQueue" />
       <item itemvalue="Application.CountTask" />
       <item itemvalue="Application.TestThreadPool" />
+      <item itemvalue="Application.ClientClass" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ClientClass" />
         <item itemvalue="Application.TestThreadPool" />
         <item itemvalue="Application.CountTask" />
         <item itemvalue="Application.TestBoundedQueue" />
@@ -347,12 +347,13 @@
       <option name="presentableId" value="Default" />
       <updated>1532071575829</updated>
       <workItem from="1532071577381" duration="4165000" />
-      <workItem from="1532313762677" duration="26351000" />
+      <workItem from="1532313762677" duration="26487000" />
+      <workItem from="1532757801445" duration="3436000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30516000" />
+    <option name="totallyTimeSpent" value="34088000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -360,22 +361,21 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Messages" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5007153" side_tool="true" weight="0.32917705" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.3297568" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" visible="true" weight="0.32917705" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49928468" visible="true" weight="0.32917705" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.5598504" visible="true" weight="0.1788269" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.55860347" visible="true" weight="0.18097281" />
       <window_info anchor="right" id="Database" order="3" weight="0.3297568" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info id="Structure" order="1" sideWeight="0.44014964" side_tool="true" weight="0.1788269" />
+      <window_info id="Structure" order="1" sideWeight="0.4413965" side_tool="true" weight="0.18097281" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24964234" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -386,6 +386,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -399,24 +400,67 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ttt.java">
+    <entry file="file://$PROJECT_DIR$/src/thread/ReadWriteLockCache.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+        <state relative-caret-position="289">
+          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/thread/ForkAndJoin/CountTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="952">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../3.path/jdk/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/util/concurrent/Future.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2023">
+          <caret line="119" lean-forward="true" selection-start-line="119" selection-end-line="119" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../3.path/jdk/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20230">
+          <caret line="1190" column="49" selection-start-line="1190" selection-start-column="34" selection-end-line="1190" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thread/boundedQueue/TestBoundedQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1037">
+          <caret line="65" selection-start-line="47" selection-end-line="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thread/boundedQueue/BoundedQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thread/TestThreadPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ttt.java" />
     <entry file="file://$PROJECT_DIR$/src/thread/test.text" />
-    <entry file="file://$PROJECT_DIR$/.git-credentials">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ttt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ttt.java" />
     <entry file="jar://$PROJECT_DIR$/../../3.path/jdk/jdk1.8.0_121.jdk/Contents/Home/jre/lib/rt.jar!/sun/misc/Unsafe.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3371">
@@ -435,38 +479,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-92">
           <caret line="701" column="24" selection-start-line="701" selection-start-column="24" selection-end-line="701" selection-end-column="24" />
-          <folding>
-            <element signature="e#7757#7758#0" expanded="true" />
-            <element signature="e#7784#7785#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/thread/TestBoundedQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="26" column="34" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="34" />
-          <folding>
-            <element signature="e#758#759#0" expanded="true" />
-            <element signature="e#800#801#0" expanded="true" />
-            <element signature="e#1266#1267#0" expanded="true" />
-            <element signature="e#1308#1309#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/thread/BoundedQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#499#500#0" expanded="true" />
-            <element signature="e#540#541#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thread/TestBoundedQueue.java" />
+    <entry file="file://$PROJECT_DIR$/src/thread/BoundedQueue.java" />
     <entry file="jar://$PROJECT_DIR$/../../3.path/jdk/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="81">
@@ -478,10 +495,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="118" column="11" lean-forward="true" selection-start-line="116" selection-end-line="192" />
-          <folding>
-            <element signature="e#8176#8177#0" expanded="true" />
-            <element signature="e#8216#8217#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -496,31 +509,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="512">
           <caret line="959" column="22" lean-forward="true" selection-start-line="959" selection-start-column="22" selection-end-line="959" selection-end-column="22" />
-          <folding>
-            <element signature="e#39094#39095#0" expanded="true" />
-            <element signature="e#39146#39147#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/thread/boundedQueue/TestBoundedQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="667">
-          <caret line="65" selection-start-line="47" selection-end-line="65" />
+        <state relative-caret-position="177">
+          <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/thread/boundedQueue/BoundedQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        <state relative-caret-position="255">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/thread/ReadWriteLockCache.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="21" column="17" lean-forward="true" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+        <state relative-caret-position="-10">
+          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -529,15 +538,29 @@
     </entry>
     <entry file="jar://$PROJECT_DIR$/../../3.path/jdk/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/util/concurrent/Future.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="119" lean-forward="true" selection-start-line="119" selection-end-line="119" />
+        <state relative-caret-position="398">
+          <caret line="154" column="52" selection-start-line="154" selection-start-column="51" selection-end-line="154" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../3.path/jdk/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/util/concurrent/ForkJoinTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="538">
+          <caret line="211" column="51" selection-start-line="211" selection-start-column="51" selection-end-line="211" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../3.path/jdk/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/util/concurrent/RecursiveTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="67" column="52" selection-start-line="67" selection-start-column="52" selection-end-line="67" selection-end-column="52" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/thread/ForkAndJoin/CountTask.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="59" selection-start-line="59" selection-end-line="59" />
+        <state relative-caret-position="160">
+          <caret line="10" column="36" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -546,19 +569,84 @@
     </entry>
     <entry file="jar://$PROJECT_DIR$/../../3.path/jdk/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="1190" column="49" selection-start-line="1190" selection-start-column="34" selection-end-line="1190" selection-end-column="49" />
+        <state relative-caret-position="3837">
+          <caret line="1189" column="11" selection-start-line="1189" selection-start-column="11" selection-end-line="1189" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../3.path/jdk/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/util/concurrent/Executors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5349">
+          <caret line="70" column="13" selection-start-line="70" selection-start-column="13" selection-end-line="70" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/thread/TestThreadPool.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+        <state relative-caret-position="170">
+          <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../3.path/jdk/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/lang/reflect/InvocationHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-282">
+          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/proxy/ProxyClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#697#698#0" expanded="true" />
-            <element signature="e#731#732#0" expanded="true" />
+            <element signature="e#220#221#0" expanded="true" />
+            <element signature="e#262#263#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../3.path/jdk/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/lang/reflect/Proxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-320">
+          <caret line="702" column="25" selection-start-line="702" selection-start-column="25" selection-end-line="702" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/proxy/RealClassI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/proxy/RealClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="39" />
+          <folding>
+            <element signature="e#118#119#0" expanded="true" />
+            <element signature="e#138#139#0" expanded="true" />
+            <element signature="e#233#234#0" expanded="true" />
+            <element signature="e#289#290#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/proxy/RealClass2I.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/proxy/ClientClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
