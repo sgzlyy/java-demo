@@ -1,7 +1,5 @@
 package SM3;
 
-import org.bouncycastle.util.encoders.Hex;
-
 public class SM3Digest {
     /**
      * SM3值的长度
@@ -137,7 +135,7 @@ public class SM3Digest {
         SM3Digest sm3 = new SM3Digest();
         sm3.update(msg1, 0, msg1.length);
         sm3.doFinal(md, 0);
-        String s = new String(Hex.encode(md));
+        String s = new String(Util.encodeHex(md));
         System.out.println("msg1:" + s);
 
 //        sm3.update(msg2, 0, msg2.length);
