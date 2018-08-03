@@ -9,7 +9,7 @@ public class SM3Digest {
     /**
      * SM3分组长度
      */
-    private static final int BLOCK_LENGTH = 62;
+    private static final int BLOCK_LENGTH = 64;
 
     /**
      * 缓冲区长度
@@ -136,6 +136,7 @@ public class SM3Digest {
         String s = new String(Util.encodeHex(md));
         System.out.println("msg:" + s);
         System.out.println("msg长度:" + s.length());
+
 
     }
 }
