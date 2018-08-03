@@ -9,7 +9,7 @@ public class SM3Digest {
     /**
      * SM3分组长度
      */
-    private static final int BLOCK_LENGTH = 64;
+    private static final int BLOCK_LENGTH = 62;
 
     /**
      * 缓冲区长度
@@ -127,21 +127,15 @@ public class SM3Digest {
 
     public static void main(String[] args) {
         byte[] md = new byte[32];
-        byte[] md2 = new byte[32];
-        byte[] msg1 = "abc".getBytes();
-        byte[] msg2 = "abcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcd".getBytes();
+        byte[] msg = "abc".getBytes();
 
 
         SM3Digest sm3 = new SM3Digest();
-        sm3.update(msg1, 0, msg1.length);
+        sm3.update(msg, 0, msg.length);
         sm3.doFinal(md, 0);
         String s = new String(Util.encodeHex(md));
-        System.out.println("msg1:" + s);
-
-//        sm3.update(msg2, 0, msg2.length);
-//        sm3.doFinal(md2, 0);
-//        String s2 = new String(Hex.encode(md2));
-//        System.out.println("msg2:" + s2);
+        System.out.println("msg:" + s);
+        System.out.println("msg长度:" + s.length());
 
     }
 }
