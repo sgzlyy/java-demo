@@ -7,7 +7,7 @@ import java.lang.reflect.Proxy;
 public class ClientClass {
 
     public static void main(String[] args) {
- 
+
         RealClass2I realCLass = new RealClass();
 
         InvocationHandler handler = new ProxyClass(realCLass);
