@@ -17,7 +17,8 @@ public class BitSetTest {
         // 2.定义一个BitSet
         BitSet bitSet = new BitSet(100);
 
-        // 3.把int数，通过bit位的索引位置存储（例如：100这个数，放在BitSet的第100索引位上，由于bit只能存0和1，所以100存在就存true，不存在就存false）
+        // 3.把int数，通过bit位的索引位置存储
+        // （例如：100这个数，放在BitSet的第100索引位上，由于bit只能存0和1，所以100存在就存true，不存在就存false）
         for (int i = 0; i < array.length; i++) {
             bitSet.set(array[i], true);
         }
