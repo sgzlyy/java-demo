@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc2756cb-5ca5-4bb6-aa2e-fcabc9cefec1" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/algorithm/BitSetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/BitSetTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/TestAtomicInteger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,10 +35,24 @@
       <file leaf-file-name="ReadWriteLockCache.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/thread/ReadWriteLockCache.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
+            <state relative-caret-position="216">
               <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestAtomicInteger.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/thread/TestAtomicInteger.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#478#681#0" expanded="true" />
+                <element signature="e#680#681#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -87,8 +102,8 @@
       <file leaf-file-name="ClientClass.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/proxy/ClientClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="102">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -96,10 +111,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BitSetTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BitSetTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/algorithm/BitSetTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
+            <state relative-caret-position="340">
               <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
             </state>
           </provider>
@@ -164,6 +179,7 @@
         <option value="$PROJECT_DIR$/src/thread/TestThreadPool.java" />
         <option value="$PROJECT_DIR$/src/proxy/ClientClass.java" />
         <option value="$PROJECT_DIR$/src/algorithm/BitSetTest.java" />
+        <option value="$PROJECT_DIR$/src/thread/TestAtomicInteger.java" />
       </list>
     </option>
   </component>
@@ -194,6 +210,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -210,15 +229,12 @@
               <item name="java-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="java-demo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="thread" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -229,7 +245,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -251,7 +267,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BitSetTest">
+  <component name="RunManager" selected="Application.TestBoundedQueue">
     <configuration name="BitSetTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="algorithm.BitSetTest" />
       <module name="java-demo" />
@@ -263,28 +279,6 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="ClientClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="proxy.ClientClass" />
-      <module name="java-demo" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="proxy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="CountTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.ForkAndJoin.CountTask" />
-      <module name="java-demo" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="thread.ForkAndJoin.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
     <configuration name="SM3Digest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SM3.SM3Digest" />
       <module name="java-demo" />
@@ -292,6 +286,28 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="SM3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="TestAtomicInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.TestAtomicInteger" />
+      <module name="java-demo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="thread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="TestBoundedQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.boundedQueue.TestBoundedQueue" />
+      <module name="java-demo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="thread.boundedQueue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -349,19 +365,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.CountTask" />
       <item itemvalue="Application.TestThreadPool" />
-      <item itemvalue="Application.ClientClass" />
       <item itemvalue="Application.SM3Digest" />
       <item itemvalue="Application.BitSetTest" />
+      <item itemvalue="Application.TestAtomicInteger" />
+      <item itemvalue="Application.TestBoundedQueue" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestBoundedQueue" />
+        <item itemvalue="Application.TestAtomicInteger" />
         <item itemvalue="Application.BitSetTest" />
         <item itemvalue="Application.TestThreadPool" />
         <item itemvalue="Application.SM3Digest" />
-        <item itemvalue="Application.ClientClass" />
-        <item itemvalue="Application.CountTask" />
       </list>
     </recent_temporary>
   </component>
@@ -382,12 +398,14 @@
       <workItem from="1534496693990" duration="1064000" />
       <workItem from="1534840538536" duration="359000" />
       <workItem from="1534905060128" duration="6000" />
-      <workItem from="1536199555829" duration="1531000" />
+      <workItem from="1536199555829" duration="1903000" />
+      <workItem from="1536572877911" duration="33000" />
+      <workItem from="1536630459928" duration="738000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55311000" />
+    <option name="totallyTimeSpent" value="56454000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
@@ -402,12 +420,12 @@
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5007153" side_tool="true" weight="0.32917705" />
       <window_info anchor="right" id="Maven Projects" order="7" weight="0.3297568" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" weight="0.32917705" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49928468" visible="true" weight="0.32917705" />
       <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32917705" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32917705" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.55860347" visible="true" weight="0.19170243" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.55860347" visible="true" weight="0.19742489" />
       <window_info anchor="right" id="Database" order="6" weight="0.3297568" />
       <window_info id="Structure" order="1" sideWeight="0.4413965" side_tool="true" weight="0.18097281" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24964234" />
@@ -434,18 +452,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/proxy/ProxyClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="31" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#220#221#0" expanded="true" />
-            <element signature="e#262#263#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/proxy/RealClass.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -668,16 +674,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/thread/ReadWriteLockCache.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/SM3/SM3.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
@@ -769,8 +765,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/proxy/ClientClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="102">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -779,8 +775,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithm/BitSetTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
+        <state relative-caret-position="340">
           <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thread/ReadWriteLockCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thread/TestAtomicInteger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#478#681#0" expanded="true" />
+            <element signature="e#680#681#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
