@@ -13,7 +13,8 @@ public class UserClient {
 
         User user = new UserImpl();
 
-        System.out.println(new UserProxy(user).getName());
+
+        System.out.println(new UserProxy(user));
     }
 
 }
