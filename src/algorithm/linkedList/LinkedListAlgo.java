@@ -1,4 +1,4 @@
-package linkedList;
+package algorithm.linkedList;
 
 /**
  * @author sby
