@@ -8,5 +8,5 @@ package designPattern.SimpleFactory;
  */
 public interface FruitJuice {
 
-    void getFruitJuice();
+    void getOneCupFruitJuice();
 }

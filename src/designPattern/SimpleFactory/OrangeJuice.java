@@ -9,7 +9,7 @@ package designPattern.SimpleFactory;
 public class OrangeJuice implements FruitJuice {
 
     @Override
-    public void getFruitJuice() {
+    public void getOneCupFruitJuice() {
         System.out.println("获得一杯橙子！");
     }
 }

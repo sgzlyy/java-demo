@@ -11,6 +11,6 @@ public class Person {
     public static void main(String[] args) {
 
         FruitJuice fruitJuice = FruitJuiceFactory.getFruitJuice("apple");
-        fruitJuice.getFruitJuice();
+        fruitJuice.getOneCupFruitJuice();
     }
 }
