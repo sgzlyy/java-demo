@@ -8,7 +8,7 @@ package designPattern.FactoryMethod;
  */
 public class AppleFactory extends PhoneFactory {
     @Override
-    Object createFactory() {
+    PhoneProduct createProduct() {
         return new Apple();
     }
 }

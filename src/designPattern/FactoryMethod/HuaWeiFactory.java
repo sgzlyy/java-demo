@@ -8,7 +8,7 @@ package designPattern.FactoryMethod;
  */
 public class HuaWeiFactory extends PhoneFactory {
     @Override
-    Object createFactory() {
+    PhoneProduct createProduct() {
         return new HuaWei();
     }
 }

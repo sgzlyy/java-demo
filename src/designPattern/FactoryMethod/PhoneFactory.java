@@ -8,5 +8,5 @@ package designPattern.FactoryMethod;
  */
 public abstract class PhoneFactory {
 
-    abstract Object createFactory();
+    abstract PhoneProduct createProduct();
 }

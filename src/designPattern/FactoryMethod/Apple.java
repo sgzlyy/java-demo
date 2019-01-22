@@ -6,7 +6,7 @@ package designPattern.FactoryMethod;
  * @Description: TODO
  * @date 2019/1/22 09:38
  */
-public class Apple extends Phone {
+public class Apple extends PhoneProduct {
 
     @Override
     void producePhone() {
