@@ -9,13 +9,11 @@ package designPattern.Builder;
 public class ComputerController {
 
     public Computer construct(ComputerBuilder cb) {
-        
+
         cb.buildCPU();
         cb.buildDisplay();
         cb.buildMemory();
 
-        Computer computer = cb.createComputer();
-
-        return computer;
+        return cb.createComputer();
     }
 }
