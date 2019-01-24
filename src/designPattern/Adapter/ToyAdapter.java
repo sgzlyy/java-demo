@@ -8,8 +8,8 @@ package designPattern.Adapter;
  */
 public class ToyAdapter extends Toy {
 
-    Light light = null;
-    Sound sound = null;
+    Light light;
+    Sound sound;
 
     ToyAdapter() {
         light = new Light();
