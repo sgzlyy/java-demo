@@ -3,7 +3,7 @@ package designPattern.Decorator;
 /**
  * @author sby
  * @Title: Clinet
- * @Description: TODO
+ * @Description: 装饰器模式
  * @date 2019/1/24 14:45
  */
 public class Clinet {
