@@ -13,7 +13,11 @@ public class LambdaDemo {
 
     public static void main(String[] args) {
 
-//        new Thread(() -> System.out.println("111")).start();
+//        new Thread(() -> {
+//            for (int x = 0; x < 100; x++) {
+//                System.out.println(Thread.currentThread().getName() + "--" + x);
+//            }
+//        }).start();
 
 //        Interface1 interface1 = i -> {
 //            int j = i * 2;
@@ -24,7 +28,7 @@ public class LambdaDemo {
 //
 //        System.out.println(interface1.add(100, 1));
 
-//        int[] nums = new int[]{1, 2, 3, 0, 5, 6, 7, 8};
+//        int[] nums = new int[]{1, 2, 3, 10, 5, 6, 7, 8};
 //        int min = IntStream.of(nums).min().getAsInt();
 //        System.out.println(min);
 
@@ -34,6 +38,10 @@ public class LambdaDemo {
 
         int[] nums = new int[]{1, 2, 3, 0, 5, 5, 6, 8};
         Arrays.stream(nums).distinct().forEach(System.out::println);
-        Arrays.stream(nums).filter(num -> num > 4).forEach(System.out::print);
+        Arrays.stream(nums).filter(num -> num > 4).forEach(System.out::println);
+
+
+//        Arrays.stream(nums).distinct().forEach(System.out::println);
+//        Arrays.stream(nums).filter(num -> num > 4).forEach(System.out::print);
     }
 }

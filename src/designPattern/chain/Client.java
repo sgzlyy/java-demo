@@ -8,7 +8,8 @@ package designPattern.chain;
  */
 public class Client {
     public static void main(String[] args) {
-        Project project = new Project("买牛奶", 9);
+        Project project = new Project("买牛奶", 15);
+
 
         AbstractRole director = new Director();
         AbstractRole presiden = new Presiden();
