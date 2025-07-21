@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc2756cb-5ca5-4bb6-aa2e-fcabc9cefec1" name="Default" comment="模版方法">
+      <change afterPath="$PROJECT_DIR$/src/main/java/video/FfmpegDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/video/WatermarkExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java-demo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +62,12 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/video/WatermarkExample.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/pom.xml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/ai/ollama/ChatWithModelTest.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/ai/ollama/ChatWithModelRealTimeTest.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -210,15 +220,18 @@
       <recent name="$PROJECT_DIR$/src/designPattern/Singleton/msb" />
       <recent name="$PROJECT_DIR$/src/lib" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/video" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="video" />
       <recent name="algorithm.sort" />
       <recent name="designPattern.proxy.dynamic" />
       <recent name="designPattern.Builder" />
       <recent name="designPattern.AbstractFactory" />
-      <recent name="thread.boundedQueue" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ChatWithModelRealTimeTest">
+  <component name="RunManager" selected="Application.FfmpegDemo">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -266,13 +279,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T01_CacheLinePadding" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.volatiles.T01_CacheLinePadding" />
+    <configuration name="FfmpegDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="video.FfmpegDemo" />
       <module name="java-demo" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thread.volatiles.*" />
+          <option name="PATTERN" value="video.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -280,13 +293,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T01_HelloVolatile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.volatiles.T01_HelloVolatile" />
+    <configuration name="WatermarkExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="video.WatermarkExample" />
       <module name="java-demo" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thread.volatiles.*" />
+          <option name="PATTERN" value="video.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -317,19 +330,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.T01_HelloVolatile" />
-      <item itemvalue="Application.T01_CacheLinePadding" />
       <item itemvalue="Application.CreateCXFile" />
       <item itemvalue="Application.ChatWithModelRealTimeTest" />
       <item itemvalue="Application.ChatWithModelTest" />
+      <item itemvalue="Application.WatermarkExample" />
+      <item itemvalue="Application.FfmpegDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FfmpegDemo" />
+        <item itemvalue="Application.WatermarkExample" />
         <item itemvalue="Application.ChatWithModelRealTimeTest" />
         <item itemvalue="Application.ChatWithModelTest" />
         <item itemvalue="Application.CreateCXFile" />
-        <item itemvalue="Application.T01_CacheLinePadding" />
-        <item itemvalue="Application.T01_HelloVolatile" />
       </list>
     </recent_temporary>
   </component>
@@ -402,6 +415,9 @@
       <workItem from="1661162927008" duration="2834000" />
       <workItem from="1751545950861" duration="1340000" />
       <workItem from="1751887885262" duration="2791000" />
+      <workItem from="1752026865750" duration="181000" />
+      <workItem from="1753062666502" duration="15224000" />
+      <workItem from="1753087816363" duration="783000" />
     </task>
     <task id="LOCAL-00001" summary="简单工厂">
       <created>1547026509711</created>
