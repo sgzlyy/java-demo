@@ -23,10 +23,10 @@ public class Lang {
         List<Map<String, String>> allList = new ArrayList<>();
         // 需要创建的对应关系
         List<Map<String, String>> createList = new ArrayList<>();
-        int codeStart = 200;
+        int codeStart = 500;
 
         System.out.println("读取现有翻译开始...");
-        XSSFWorkbook xssfWorkbook1 = new XSSFWorkbook(new File("/Users/sgz/Downloads/现有翻译对照表.xlsx"));
+        XSSFWorkbook xssfWorkbook1 = new XSSFWorkbook(new File("/Users/sgz/Downloads/BTI翻译/数据库最新翻译.xlsx"));
         XSSFSheet xssfSheet1 = xssfWorkbook1.getSheetAt(0);
         int rowStart1 = xssfSheet1.getFirstRowNum();
         int rowEnd1 = xssfSheet1.getLastRowNum();
@@ -48,7 +48,7 @@ public class Lang {
 
         System.out.println("读取待翻译开始...");
         int maxLength = 0;
-        XSSFWorkbook xssfWorkbook2 = new XSSFWorkbook(new File("/Users/sgz/Downloads/现有翻译对照表 (1).xlsx"));
+        XSSFWorkbook xssfWorkbook2 = new XSSFWorkbook(new File("/Users/sgz/Downloads/BTI翻译/BTI中文翻译统计_20251224.xlsx"));
         XSSFSheet xssfSheet2 = xssfWorkbook2.getSheetAt(0);
         int rowStart2 = xssfSheet2.getFirstRowNum();
         int rowEnd2 = xssfSheet2.getLastRowNum();
@@ -59,7 +59,7 @@ public class Lang {
                     continue;
                 }
 
-                String message = row.getCell(1).getStringCellValue();
+                String message = row.getCell(0).getStringCellValue();
                 if (message.length() > maxLength) {
                     maxLength = message.length();
                 }
@@ -101,7 +101,7 @@ public class Lang {
             outrow1.createCell(0).setCellValue(stringMap.get("code"));
             outrow1.createCell(1).setCellValue(stringMap.get("message"));
         }
-        FileOutputStream out1 = new FileOutputStream("/Users/sgz/Downloads/前端翻译对应code.xlsx");
+        FileOutputStream out1 = new FileOutputStream("/Users/sgz/Downloads/BTI翻译/前端翻译对应code.xlsx");
         outworkbook1.write(out1);
         out1.close();
         System.out.println("创建前端翻译结束...");
@@ -115,7 +115,7 @@ public class Lang {
             outrow2.createCell(0).setCellValue(stringMap.get("code"));
             outrow2.createCell(1).setCellValue(stringMap.get("message"));
         }
-        FileOutputStream out2 = new FileOutputStream("/Users/sgz/Downloads/前端需要创建的对应关系.xlsx");
+        FileOutputStream out2 = new FileOutputStream("/Users/sgz/Downloads/BTI翻译/前端需要创建的对应关系.xlsx");
         outworkbook2.write(out2);
         out2.close();
         System.out.println("创建不存在的翻译结束...");
