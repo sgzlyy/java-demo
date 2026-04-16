@@ -1,5 +1,6 @@
 HELP.md
 **/target/
+**/out/
 **/test-output/
 !.mvn/wrapper/maven-wrapper.jar
 dubbo-registry.properties
